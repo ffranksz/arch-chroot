@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # ======================================================
-#  Pós-instalação do Arch Linux - Franklin Souza (@frannksz)
+#  Pós-instalação do Arch Linux - Franklin Souza (@ffrannksz)
 # ======================================================
 
 set -euo pipefail
