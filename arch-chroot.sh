@@ -106,8 +106,8 @@ pacman_config() {
   msg "Otimizando configurações do pacman"
   sed -i -r 's/^#(UseSyslog|Color|CheckSpace|VerbosePkgLists|ParallelDownloads)/\1/' /etc/pacman.conf
   sed -i '/^ParallelDownloads/s/=[[:space:]]*[0-9]*/= 100/' /etc/pacman.conf
-  sed -i '40s/$/ILoveCandy/' /etc/pacman.conf
-  sed -i '92,93s/^#//' /etc/pacman.conf
+  sed -i '41s/$/ILoveCandy/' /etc/pacman.conf
+  sed -i '94,95s/^#//' /etc/pacman.conf
 }
 
 # === Atualizar repositórios ===
