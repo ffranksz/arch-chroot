@@ -48,7 +48,7 @@ language_system() {
       sed -i '171s/^#//' /etc/locale.gen
       ;;
     2)
-      sed -i '391s/^#//' /etc/locale.gen
+      sed -i '392s/^#//' /etc/locale.gen
       ;;
     *)
       echo "Opção inválida!"
